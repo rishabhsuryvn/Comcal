@@ -20,16 +20,14 @@ background: radial-gradient(circle farthest-corner at center center, #1DB1CF 0%,
   width: 100%;
 }
 .header a{
-  color: rgb(226, 43, 86);
+  color: rgb(255, 255, 255);;
   font-size: 35px;
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
   text-decoration: none;
 }
-.header a:hover{
-  color: #ccc;
-}
+
 a{
   text-decoration: none;
 }
