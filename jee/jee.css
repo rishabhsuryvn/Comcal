@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+  width:100%;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: #157689;
+background: radial-gradient(circle farthest-corner at center center, #1DB1CF 0%, #0A4B7D 100%);
+
+}
+
+.header{
+  background: #1c6178;
+  height: 80px;
+  width: 100%;
+}
+.header a{
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 5px;
+  background: #f4f4f4;
+  margin: 5px 0;
+}
+
+h1 {
+  margin-top: 10px;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  width: 500px;
+  margin: 20px 20px;
+  overflow: auto;
+  padding: 30px 30px;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.inputDiv {
+  width: 47%;
+  display: inline-block;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.makeInlineLeft {
+  display: inline;
+  float: left;
+}
+
+.makeInlineRight {
+  display: inline;
+  float: right;
+}
+
+
+#my-form {
+  padding: 2rem;
+  background: #f4f4f4;
+}
+
+#my-form label {
+  display: block;
+}
+
+#my-form input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.cont-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  padding: 7px 19px;
+  margin: auto;
+  border-radius: 18px;
+  background-color: #1c89ff;
+  border: solid 1px transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(98, 147, 215);
+}
+
+table{
+  width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding: 30px 30px;
+  background-color: antiquewhite;
+  
+}
+.error {
+  background: orangered;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+}
+
+.subject{
+  background-color: rgb(183, 182, 182);
+  text-align: center;
+  font-size: 16px;
+}
+#tablebody{
+  text-align: center;
+  font-size: 16px;
+}

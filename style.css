@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+  width:100%;
+  font-family: 'Poppins', sans-serif;
+  background: #1DB1CF;
+background: radial-gradient(circle farthest-corner at center center, #1DB1CF 0%, #0A4B7D 100%);
+
+}
+
+.header{
+  background: #0e5066;
+  height: 80px;
+  width: 100%;
+}
+.header a{
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.boxes{
+  margin-top: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.boxes .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  flex: 1;
+  background: #0a51cc;
+  color: #fff;
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+}
+
+.box h2{
+  text-align: center;
+  font-weight: 600;
+}
+.box p{
+  text-align: center;
+}
+
+.cont-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.btn {
+  position: relative;
+  display: block;
+  padding: 7px 19px;
+  margin: auto;
+  border-radius: 18px;
+  background:  rgba(238, 62, 62, 0.816);
+  border: solid 1px transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgb(235, 74, 74);
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .header .container
+{
+  flex-direction: column;
+  padding-top: 20px;
+  text-align: center;
+}  
+.boxes .container{
+  display: block;
+  text-align: center;
+  
+}
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="neet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel ="stylesheet" href ="https://bootswatch.com/4/yeti/bootstrap.min.css">
+  <title>neet marks Calculator</title>
+</head>
+<body>
+  <section class="header">
+    <a href="">CompCal</a>
+  </section>
+
+ <div class="sitename">
+    <h1>NEET MARKS CALCULATOR</h1>
+  </div>
+
+  <section class="container">
+    <form id="my-form">
+      <div id="msg"></div>
+      <h3 class="head">Physics :</h3>
+      <div class="inputDiv">
+        <input type="text" class="inputField" placeholder="Correct" id="phyC">
+      </div>
+      <div class="inputDiv">
+        <input type="text" class="inputField" placeholder="Incorrect" id="phyI">
+      </div>
+      <h3 class="head">Chemistry :</h3>
+      <div class="inputDiv">
+        <input type="text" class="inputField" placeholder="Correct" id="chemC">
+      </div>
+      <div class="inputDiv">
+        <input type="text" class="inputField" placeholder="Incorrect" id="chemI">
+      </div>
+      <h3 class="head">Zology :</h3>
+      <div class="inputDiv">
+        <input type="text" class="inputField" placeholder="Correct" id="zooC">
+      </div>
+      <div class="inputDiv">
+        <input type="text" class="inputField" placeholder="Incorrect" id="zooI">
+      </div>
+      <h3 class="head">Botany :</h3>
+      <div class="inputDiv">
+        <input type="text" class="inputField" placeholder="Correct" id="botC">
+      </div>
+      <div class="inputDiv">
+        <input type="text" class="inputField" placeholder="Incorrect" id="botI">
+      </div>
+    <div class="cont-btn">
+      <button class="button" value="submit">Submit</button>
+    </div>
+     
+    </form>
+
+  </section>
+  <section class="table" id="marks">
+    <table class="tbody">
+      <thead class="subject">
+        <tr>
+          <th scope="col">Physics</th>
+          <th scope="col">Chemistry</th>
+          <th scope="col">Zology</th>
+          <th scope="col">Botany</th>
+          <th scope="col">total</th>
+        </tr>
+      </thead>
+      <tbody id="tablebody">
+
+      </tbody>
+    </table>
+  </section>
+  
+
+
+  
+ <script src="neet.js"></script>
+</body>
+</html>
